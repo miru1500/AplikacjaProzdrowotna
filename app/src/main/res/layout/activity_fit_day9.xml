@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_15sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:orientation="vertical"
+        tools:context="com.example.aplikacjaprozdrowotna.ActivityFitDay9">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/fit_hint"
+            android:textAlignment="center"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"  />
+
+        <Button
+            android:id="@+id/btnFitDay9Ex1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/colorGrey"
+            android:text="@string/mountain_climber"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFitDay9Ex2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/colorGrey"
+            android:text="@string/squats"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFitDay9Ex3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/colorGrey"
+            android:text="@string/lunges"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFitDay9Ex4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/colorGrey"
+            android:text="@string/push_ups"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFitDay9Ex5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/colorGrey"
+            android:text="@string/leg_raises"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFitDay9Ex6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/colorGrey"
+            android:text="@string/heel_touch"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFitDay9Ex7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/colorGrey"
+            android:text="@string/plank"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/powrot"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="#A10000"
+            android:text="@string/reset"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>

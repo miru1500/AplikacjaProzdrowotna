@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_15sdp"
+        tools:context="com.example.aplikacjaprozdrowotna.ActivityFit">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:text="@string/exercises_title"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:gravity="center_horizontal">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnFitDay1"
+                    android:layout_width="@dimen/_220sdp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzien_1" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:id="@+id/pbFitDay1"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/circle_background_fit"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/circle_progress_fit"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/tvFitDay1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/pbFitDay1"
+                        android:layout_alignTop="@id/pbFitDay1"
+                        android:layout_alignRight="@id/pbFitDay1"
+                        android:layout_alignBottom="@id/pbFitDay1"
+                        android:gravity="center"
+                        android:text="@string/zero_percent" />
+                </RelativeLayout>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnFitDay2"
+                    android:layout_width="@dimen/_220sdp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzien_2" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:id="@+id/pbFitDay2"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/circle_background_fit"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/circle_progress_fit"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/tvFitDay2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/pbFitDay2"
+                        android:layout_alignTop="@id/pbFitDay2"
+                        android:layout_alignRight="@id/pbFitDay2"
+                        android:layout_alignBottom="@id/pbFitDay2"
+                        android:gravity="center"
+                        android:text= "@string/zero_percent"/>
+
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnFitDay3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzien_3" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:id="@+id/pbFitDay3"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/circle_background_fit"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/circle_progress_fit"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/tvFitDay3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/pbFitDay3"
+                        android:layout_alignTop="@id/pbFitDay3"
+                        android:layout_alignRight="@id/pbFitDay3"
+                        android:layout_alignBottom="@id/pbFitDay3"
+                        android:gravity="center"
+                        android:text="@string/zero_percent" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnFitDay4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzien_4" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ivCoffee"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.5"
+                        app:srcCompat="@drawable/coffee" />
+
+                    <TextView
+                        android:id="@+id/tvFitDayFree"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignLeft="@id/ivCoffee"
+                        android:layout_alignTop="@id/ivCoffee"
+                        android:layout_alignRight="@id/ivCoffee"
+                        android:layout_alignBottom="@id/ivCoffee"
+                        android:gravity="center"
+                        android:text="Dziś \nwolne"
+                        android:textColor="#002A7E"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnFitDay5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzien_5" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:id="@+id/pbFitDay5"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/circle_background_fit"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/circle_progress_fit"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/tvFitDay5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/pbFitDay5"
+                        android:layout_alignTop="@id/pbFitDay5"
+                        android:layout_alignRight="@id/pbFitDay5"
+                        android:layout_alignBottom="@id/pbFitDay5"
+                        android:gravity="center"
+                        android:text="@string/zero_percent" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btnFitDay6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzien_6" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:id="@+id/pbFitDay6"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/circle_background_fit"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/circle_progress_fit"
+                        android:textAlignment="center"  />
+
+                    <TextView
+                        android:id="@+id/tvFitDay6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/pbFitDay6"
+                        android:layout_alignTop="@id/pbFitDay6"
+                        android:layout_alignRight="@id/pbFitDay6"
+                        android:layout_alignBottom="@id/pbFitDay6"
+                        android:gravity="center"
+                        android:text="@string/zero_percent" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnFitDay7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzien_7" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:id="@+id/pbFitDay7"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/circle_background_fit"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/circle_progress_fit"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/tvFitDay7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/pbFitDay7"
+                        android:layout_alignTop="@id/pbFitDay7"
+                        android:layout_alignRight="@id/pbFitDay7"
+                        android:layout_alignBottom="@id/pbFitDay7"
+                        android:gravity="center"
+                        android:text="@string/zero_percent" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnFitDay8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzien_8" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ivCoffee2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.5"
+                        app:srcCompat="@drawable/coffee" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignLeft="@id/ivCoffee2"
+                        android:layout_alignTop="@id/ivCoffee2"
+                        android:layout_alignRight="@id/ivCoffee2"
+                        android:layout_alignBottom="@id/ivCoffee2"
+                        android:gravity="center"
+                        android:text="Dziś \nwolne"
+                        android:textColor="#002A7E"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btnFitDay9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzien_9" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:id="@+id/pbFitDay9"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/circle_background_fit"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/circle_progress_fit"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:id="@+id/tvFitDay9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/pbFitDay9"
+                        android:layout_alignTop="@id/pbFitDay9"
+                        android:layout_alignRight="@id/pbFitDay9"
+                        android:layout_alignBottom="@id/pbFitDay9"
+                        android:gravity="center"
+                        android:text="@string/zero_percent" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btnFitDay10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzien_10" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:id="@+id/pbFitDay10"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/circle_background_fit"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/circle_progress_fit"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/tvFitDay10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/pbFitDay10"
+                        android:layout_alignTop="@id/pbFitDay10"
+                        android:layout_alignRight="@id/pbFitDay10"
+                        android:layout_alignBottom="@id/pbFitDay10"
+                        android:gravity="center"
+                        android:text="@string/zero_percent" />
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikacjaprozdrowotna">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityAddWater"></activity>
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityWaterMain" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityWaterStartInfo" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityCigNewTarget" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityCigTarget" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityCigAchievments" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityCigMain" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityCigStartInfo" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityFitDay10" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityFitDay9" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityFitDay7" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityFitDay6" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityFitDay5" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityFitDayFree" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityFitDay3" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityFitDay2" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityFitDay1" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityFit" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityBMI" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.ActivityKilograms" />
+        <activity android:name="com.example.aplikacjaprozdrowotna.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcast10Cigs" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcast20Cigs" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcast50Cigs" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcast100Cigs" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcast10Money" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcast50Money" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcast100Money" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcast500Money" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcastHealth20Mins" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcastHealth8Hours" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcastHealth24Hours" />
+        <receiver android:name="com.example.aplikacjaprozdrowotna.AchievmentBroadcastHealth48Hours" />
+    </application>
+
+</manifest>
